@@ -1,0 +1,30 @@
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+}
+
+.image {
+  width: 100%; 
+  height: auto; 
+}
+
+.text-overlay {
+  position: absolute;
+  top: 75%; 
+  left: 28%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.text {
+  margin: 0;
+}
+
+p {
+  margin: 20px;
+}
